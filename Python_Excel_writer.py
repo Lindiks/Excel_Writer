@@ -19,11 +19,11 @@ for col_key in dfs:
         dfs[col_key][row_key] = user_input
 
     if(col_key == 'Start Date'):  
-        user_input = input('Start Date mm-dd-yyyy: ')
+        user_input = input('Start Date mm/dd/yyyy: ')
         dfs[col_key][row_key] = user_input
 
     if(col_key == 'End Date'):  
-        user_input = input('End Date mm-dd-yyyy: ')
+        user_input = input('End Date mm/dd/yyyy: ')
         dfs[col_key][row_key] = user_input
 
     if(col_key == 'Start Time' and not is_all_day):  
